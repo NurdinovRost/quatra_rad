@@ -5,6 +5,8 @@ __pycache__/
 # Project
 venv/
 logs/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
 
 
 # Pycharm
