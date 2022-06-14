@@ -1,9 +1,9 @@
 model_params:
   model: ContainersModel
-  encoder_name: "efficientnet_b1"
+  encoder_name: "efficientnet_b0"
   num_classes: 3
   pretrained: True
-  dropout_rate: 0.8
+  dropout_rate: 0.5
 
 args:
   expdir: src
@@ -38,7 +38,7 @@ stages:
 
   stage1:
     stage_params:
-      num_epochs: 100
+      num_epochs: 35
 
     callbacks_params:
       loss:
